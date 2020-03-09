@@ -7,7 +7,7 @@ public class HealthPersonApp {
     List<HealthPersonnel> employees;
 
     public static void main(String[] args) {
-        HealthPersonnel johnny = new HealthPersonnel();
+        HealthPersonnel johnny = new Nurse();
         johnny.name = "Johnny";
         Doctor doc = new Doctor();
         doc.name = "HollyWood";
