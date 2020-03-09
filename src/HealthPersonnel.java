@@ -1,14 +1,18 @@
 public class HealthPersonnel {
     public int id;
-    public String fornavn;
-    public Afdeling stamafdeling;
+    public String name;
+    public Ward primaryWard;
 
     public HealthPersonnel() {
     }
 
-    public HealthPersonnel(int id, String fornavn, Afdeling stamafdeling) {
+    public HealthPersonnel(int id, String name, Ward primaryWard) {
         this.id = id;
-        this.fornavn = fornavn;
-        this.stamafdeling = stamafdeling;
+        this.name = name;
+        this.primaryWard = primaryWard;
+    }
+
+    public String getName() {
+        return name;
     }
 }
