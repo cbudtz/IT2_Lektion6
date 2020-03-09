@@ -1,16 +1,15 @@
 public class Doctor extends HealthPersonnel {
-    String authId;
-    Specialty specialty;
+    private String authId;
+    private Specialty specialty;
 
-    public Doctor() {
-    }
+    @Override
+    public String getName() {return "Dr. " + name;}
 
-    public Doctor(int id, String fornavn, Ward stamafdeling, String authId, Specialty specialty) {
-        super(id, fornavn, stamafdeling);
-        this.authId = authId;
-        this.specialty = specialty;
-    }
-    public String getName() {
-        return "Dr. " + name;
-    }
+    public String getAuthId() {return authId;}
+
+    public void setAuthId(String authId) {this.authId = authId;}
+
+    public Specialty getSpecialty() {return specialty;}
+
+    public void setSpecialty(Specialty specialty) {this.specialty = specialty;}
 }
