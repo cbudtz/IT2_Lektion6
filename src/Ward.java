@@ -1,3 +1,3 @@
-public class Afdeling {
+public class Ward {
     public String name;
 }

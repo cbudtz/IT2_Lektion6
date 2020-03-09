@@ -6,7 +6,7 @@ public class Nurse extends HealthPersonnel {
     public Nurse() {
     }
 
-    public Nurse(int id, String fornavn, Afdeling stamafdeling, List<Integer> beds) {
+    public Nurse(int id, String fornavn, Ward stamafdeling, List<Integer> beds) {
         super(id, fornavn, stamafdeling);
         this.beds = beds;
     }

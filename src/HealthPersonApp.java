@@ -15,9 +15,8 @@ public class HealthPersonApp {
         rachel.name = "Rachel";
         List<HealthPersonnel> healthPersonnel = new ArrayList<>();
         healthPersonnel.addAll(Arrays.asList(johnny, doc, rachel));
-        for (HealthPersonnel hp: healthPersonnel
-             ) {
-            System.out.println(hp.name);
+        for (HealthPersonnel hp: healthPersonnel) {
+            System.out.println(hp.getName());
         }
 
     }

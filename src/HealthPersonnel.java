@@ -1,14 +1,18 @@
 public abstract class HealthPersonnel {
     public int id;
     public String name;
-    public Afdeling stamafdeling;
+    public Ward primaryWard;
 
     public HealthPersonnel() {
     }
 
-    public HealthPersonnel(int id, String name, Afdeling stamafdeling) {
+    public HealthPersonnel(int id, String name, Ward primaryWard) {
         this.id = id;
         this.name = name;
-        this.stamafdeling = stamafdeling;
+        this.primaryWard = primaryWard;
+    }
+
+    public String getName() {
+        return name;
     }
 }
