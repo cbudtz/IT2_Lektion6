@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-import javax.print.Doc;
->>>>>>> solution1
 import java.util.List;
 
 public class HealthPersonApp {
