@@ -1,4 +1,4 @@
-public class HealthPersonnel {
+public abstract class HealthPersonnel {
     public int id;
     public String name;
     public Afdeling stamafdeling;
