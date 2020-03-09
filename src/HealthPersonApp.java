@@ -18,6 +18,5 @@ public class HealthPersonApp {
         for (HealthPersonnel hp: healthPersonnel) {
             System.out.println(hp.getName());
         }
-
     }
 }
